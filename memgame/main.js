@@ -1,4 +1,4 @@
-var cards = ["queen", "queen", "queen", "queen", "king", "king", "king", "king"];
+var cards = ["king", "queen", "queen", "king", "queen", "king", "king", "queen"];
 var cardsInPlay = []
 var points = document.getElementById('points')
 var score = points.innerHTML;
