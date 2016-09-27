@@ -2,45 +2,23 @@
 <html>
 <head>
 	<title>Raspberry Pi</title>
-	<style type="text/css">
-	
-	ul {
-    	list-style-type: none;
-    	margin: 100px auto;
-    	width: 50%;
-    	background-color: #f1f1f1;
-	}
-
-	li a {
-    	display: block;
-    	color: #000;
-    	padding: 50px 16px;
-    	text-decoration: none;
-    	font-size: 30px;
-    	font-family: helvetica;
-    	text-align: center;
-	}
-	
-	li a:hover {
-    	background-color: #555;
-    	color: white;
-	}
-	
-	h1 {
-		font-family: helvetica;
-		font-size: 50px;
-		text-align: center;
-	}
-
-	</style>
+	<link rel="stylesheet" href="master.css" media="screen" title="no title">
+	<link rel="stylesheet" href="bootstrap.min.css" media="screen" title="no title">
 </head>
 <body>
-<h1>Connor's Pi</h1>
-<nav>
-	<ul>
-	<li><a href="memgame/index.html">Memory Game</a></li>
-	<li><a href="admin/index.php">Pi-hole</a></li>
-	</ul>
-</nav>
+<h1>Connor's Raspberry Pi</h1>
+<div class="jumbotron">
+  <h1>Memory Game</h1>
+	<p>
+		Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards
+	</p>
+	<p><a class="btn btn-primary btn-lg" href="memgame/index.html">Play The Game</a></p>
+
+</div>
+<div class="jumbotron">
+  <h1>Pi-Hole</h1>
+  <p>A Black Hole for Internet Advertisements</p>
+  <p><a href="pihole/index.html" class="btn btn-primary btn-lg">View Admin Console</a></p>
+</div>
 </body>
 </html>
