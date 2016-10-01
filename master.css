@@ -1,9 +1,12 @@
-body > h1 {
-  padding: 50px 0 0 70px;
-  margin-bottom: 70px;
+.well h1 {
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+.well p {
+  font-size: 18px;
+  padding-bottom: 10px;
 }
 
-.jumbotron{
-  padding: 40px;
-  margin: 30px;
+.container > h1 {
+  padding: 40px 0;
 }
